@@ -50,7 +50,9 @@ Dentro de la carpeta target en la ruta anterior se debio crear la ruta de carpet
   
 Para correr nuestra app en mod producción vamos a ejecutar la siguiente linea:
 
-/home/daniel/.sbt/0.13/staging/2a2bead7ebd26837197a/backend/target/universal/stage/bin/<nombre-app> -Dplay.http.secret.key=abcdefghijk.
+/home/daniel/.sbt/0.13/staging/2a2bead7ebd26837197a/backend/target/universal/stage/bin/<nombre-app> -Dplay.http.secret.key=abcdefghijk &
+  
+ - **Usar & al final para crear un proceso background y salir de la consola con ctrl + d. **
   
 Nos saldra el siguiente log indicandonos que ya tenemos corriendo nuestra app en Modo producción:
 
