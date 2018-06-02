@@ -56,7 +56,7 @@ Nos saldra el siguiente log indicandonos que ya tenemos corriendo nuestra app en
 
 [warn] application - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
 [info] application - Creating Pool for datasource 'default'
-[info] p.a.d.DefaultDBApi - Database [default] connected at jdbc:mysql://181.140.132.200:3306/consulta
+[info] p.a.d.DefaultDBApi - Database [default] connected at jdbc:mysql://xxx.xxx.xxx.xxx:3306/consulta
 [warn] application - application.langs is deprecated, use play.i18n.langs instead
 [warn] application - application.conf @ file:/home/daniel/.sbt/0.13/staging/2a2bead7ebd26837197a/backend/target/universal/stage/conf/application.conf: 22: application.secret is deprecated, use play.crypto.secret instead
 [info] play.api.Play - Application started (Prod)
